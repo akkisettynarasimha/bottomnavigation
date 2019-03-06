@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center"
+                android:id="@+id/product"
+                android:layout_marginRight="25dp"
+                android:textSize="18dp"
+                android:textColor="#222222"
+                android:layout_height="30dp"
+                android:text="Narasimha"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:textColor="#909090"
+                android:id="@+id/productname"
+                android:textSize="16dp"
+                android:text="Narasimha"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+
+</LinearLayout>

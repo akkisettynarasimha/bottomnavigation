@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentlayout"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center" />
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Please Enter Your  Registration Details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="15dp"
+                app:cardBackgroundColor="#FBF7F7"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:layout_marginTop="10dp"
+                            android:textColorHint="#c4c1c1"
+                            android:layout_gravity="center"
+                            android:background="@drawable/edittestshapeforregister"
+                            android:gravity="center"
+                            android:layout_width="250dp"
+                            android:layout_height="43dp"
+                            android:hint="Name"/>
+                        <EditText
+                            android:layout_marginTop="10dp"
+                            android:textColorHint="#c4c1c1"
+                            android:layout_gravity="center"
+                            android:background="@drawable/edittestshapeforregister"
+                            android:gravity="center"
+                            android:layout_width="250dp"
+                            android:layout_height="43dp"
+                            android:hint="Email Address"/>
+                        <EditText
+                            android:layout_marginTop="10dp"
+                            android:textColorHint="#c4c1c1"
+                            android:layout_gravity="center"
+                            android:background="@drawable/edittestshapeforregister"
+                            android:gravity="center"
+                            android:layout_width="250dp"
+                            android:layout_height="43dp"
+                            android:hint="Phone Number"/>
+                        <EditText
+                            android:layout_marginTop="10dp"
+                            android:textColorHint="#c4c1c1"
+                            android:layout_gravity="center"
+                            android:background="@drawable/edittestshapeforregister"
+                            android:gravity="center"
+                            android:layout_width="250dp"
+                            android:layout_height="43dp"
+                            android:hint="Password"/>
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/registractionok"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="20dp"
+                            android:src="@drawable/ic_arrow_forward_white_24dp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

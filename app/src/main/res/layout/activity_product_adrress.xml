@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ProductAdrress">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="#ffffff">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                         <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                             android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:text="Sai"
+                                android:textSize="16dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:textColor="#F80E0D0D"/>
+                             <LinearLayout
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:gravity="center"
+                                 android:layout_marginTop="4dp"
+                                 android:background="@drawable/home_border_shape"
+                                 android:orientation="horizontal">
+                                 <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="20dp"
+                                 android:text="Home"
+                                 android:gravity="center"
+                                 android:textSize="16dp"
+                                 android:textColor="#F80E0D0D"/>
+                             </LinearLayout>
+                         </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/address_details"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Flat No :12 , Savithri Apportements , Besides Sai Sri Temple ,Sr Nagar"
+                                android:textSize="16dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:textColor="#F80E0D0D"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:text="9703596929"
+                                android:textSize="16dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:textColor="#F80E0D0D"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp">
+                            <Button
+                                android:id="@+id/changeaddress"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Change or Add Adress"
+                                android:gravity="center"
+                                android:textAllCaps="false"
+                                android:background="@drawable/home_border_shape"
+                                android:textSize="16dp"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:textColor="#F80E0D0D"/>
+                        </LinearLayout>
+                   </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardElevation="5dp"
+                    app:cardBackgroundColor="#ffffff">
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <ImageView
+
+
+                            android:id="@+id/checkoutimage"
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center"
+                            android:src="@drawable/ic_home_black_24dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="10dp"
+                            android:scaleType="fitXY" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/chekoutname"
+                                android:textColor="#000"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:textSize="18dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Heritage Toned Milk"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:weightSum="5"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/checkoutml"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="#c6c5c5"
+                                    android:layout_marginTop="10dp"
+                                    android:textSize="15dp"
+                                    android:layout_weight="2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="500ml"/>
+                                <LinearLayout
+                                    android:weightSum="3"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="4"
+                                    android:layout_height="30dp"
+                                    android:orientation="horizontal">
+                                    <Space
+                                        android:layout_width="0dp"
+                                        android:layout_weight="0.7"
+                                        android:layout_height="match_parent" />
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_weight="1.4"
+                                        android:orientation="horizontal"
+                                        android:layout_height="30dp">
+
+                                        <LinearLayout
+                                            android:layout_marginBottom="10dp"
+                                            android:layout_weight="0.3"
+                                            android:background="@drawable/amountbordershape"
+                                            android:layout_width="0dp"
+                                            android:orientation="horizontal"
+                                            android:layout_height="30dp">
+
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_weight="1"
+                                                android:gravity="top|center"
+                                                android:background="@drawable/decrementshape"
+                                                android:layout_height="match_parent"
+                                                android:orientation="vertical">
+                                                <Button
+
+
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="match_parent"
+                                                    android:padding="0dp"
+                                                    android:textSize="20dp"
+                                                    android:textColor="#009DFC"
+                                                    android:id="@+id/decrese"
+                                                    android:textStyle="bold"
+                                                    android:text="-"/>
+                                            </LinearLayout>
+                                            <TextView
+                                                android:layout_weight="1"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent"
+                                                android:text="1"
+                                                android:textColor="@android:color/black"
+                                                android:inputType="number"
+                                                android:id="@+id/add"
+                                                android:gravity="center"
+                                                />
+                                            <LinearLayout
+                                                android:layout_width="0dp"
+                                                android:layout_weight="1"
+                                                android:background="@drawable/incrementshape"
+                                                android:layout_height="match_parent"
+                                                android:orientation="vertical">
+                                                <Button
+
+
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="match_parent"
+                                                    android:padding="0dp"
+                                                    android:textSize="20dp"
+                                                    android:textColor="#009DFC"
+                                                    android:id="@+id/increase"
+                                                    android:textStyle="bold"
+                                                    android:text="+"/>
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+                                    <Space
+                                        android:layout_width="0dp"
+                                        android:layout_weight="0.7"
+                                        android:layout_height="match_parent" />
+                                </LinearLayout>
+
+
+
+
+
+
+
+                            </LinearLayout>
+                            <RelativeLayout
+                                android:layout_marginTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+
+                                    android:textColor="#009DFC"
+                                    android:textSize="18dp"
+                                    android:id="@+id/t1"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="25.00"/>
+                            </RelativeLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/costtt"
+                        android:layout_below="@+id/cott"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_centerInParent="true"
+                        app:cardElevation="5dp"
+                       >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_width="200dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="SHIPPING FEE"
+                                    android:typeface="sans" />
+
+                                <TextView
+                                    android:gravity="center"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="FREE" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_width="200dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sub Total"
+                                    android:typeface="sans" />
+
+                                <TextView
+                                    android:layout_marginRight="10dp"
+                                    android:gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="RS.200" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_width="200dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Delivery"
+                                    android:typeface="sans" />
+
+                                <TextView
+                                    android:layout_marginRight="10dp"
+                                    android:gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="RS.200" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="10dp">
+                                <TextView
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_width="200dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Grand Total"
+                                    android:textColor="#000"
+                                    android:textStyle="bold"
+                                    android:typeface="sans" />
+                                <TextView
+                                    android:layout_marginRight="10dp"
+                                    android:gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="RS.436"
+                                    android:textColor="#000"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="#f2eeee"
+            android:elevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="RS.436"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:typeface="monospace" />
+
+                <Button
+                    android:id="@+id/continuee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/green"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Continue"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

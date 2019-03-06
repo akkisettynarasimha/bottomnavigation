@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/db" android:title="dashboared"
+    android:icon="@drawable/ic_dashboard_black_24dp"/>
+
+    <item
+        android:id="@+id/event" android:title="Events"
+        android:icon="@drawable/ic_event_black_24dp"/>
+
+    <item android:id="@+id/search" android:title="SEARCH"
+        android:icon="@drawable/ic_search_black_24dp"/>
+
+    <item android:id="@+id/settings" android:title="SETTINGS"
+        android:icon="@drawable/ic_settings_black_24dp"/>
+
+    <item android:id="@+id/actvities" android:title="ACTIVITIES"
+        android:icon="@drawable/ic_local_activity_black_24dp"/>
+
+    <item android:id="@+id/logout" android:title="LOG OUT"
+        android:icon="@drawable/ic_vpn_key_black_24dp"/>
+</menu>
